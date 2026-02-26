@@ -8,7 +8,7 @@ namespace TestGithubCommand.Controllers
     {
         private static readonly string[] Summaries =
         [
-            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching", "Test1234"
+            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching", "Test1234", "Test"
         ];
 
         [HttpGet(Name = "GetWeatherForecast")]
